@@ -1,0 +1,79 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+	
+  .top-wrapper h2 {
+    font-size: 20px;
+  }
+  
+  .heading h1 {
+    font-size: 20px;
+  }
+
+ 
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+
+  .item-icon img{
+    width: 240px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+   display: block ;
+ }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  /*.top-wrapper {
+    text-align: left;
+  }*/
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+	
+  .top-wrapper h2 {
+    font-size: 19px;
+    line-height: 36px;	
+	}
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer-wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-wrapper button{
+    width: 100%;
+  }
+}
